@@ -1,0 +1,22 @@
+[
+  {"name": "Meeting notes summariser (internal)",
+   "answers": {"personal_data": false, "sensitive_data": false, "affects_individuals": false, "customer_facing": false,
+               "no_human_review": false, "irreversible_action": false, "regulated_domain": false,
+               "third_party_model": true, "high_volume": false}},
+  {"name": "Onboarding knowledge assistant",
+   "answers": {"personal_data": false, "sensitive_data": false, "affects_individuals": false, "customer_facing": false,
+               "no_human_review": true, "irreversible_action": false, "regulated_domain": false,
+               "third_party_model": true, "high_volume": true}},
+  {"name": "Client reply drafting",
+   "answers": {"personal_data": true, "sensitive_data": false, "affects_individuals": false, "customer_facing": true,
+               "no_human_review": false, "irreversible_action": true, "regulated_domain": false,
+               "third_party_model": true, "high_volume": true}},
+  {"name": "Candidate shortlisting agent",
+   "answers": {"personal_data": true, "sensitive_data": false, "affects_individuals": true, "customer_facing": false,
+               "no_human_review": true, "irreversible_action": false, "regulated_domain": true,
+               "third_party_model": true, "high_volume": true}},
+  {"name": "Candidate shortlisting with recruiter review",
+   "answers": {"personal_data": true, "sensitive_data": false, "affects_individuals": true, "customer_facing": false,
+               "no_human_review": false, "irreversible_action": false, "regulated_domain": true,
+               "third_party_model": true, "high_volume": true}}
+]
